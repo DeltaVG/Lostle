@@ -1,0 +1,683 @@
+[
+    {
+        "lostItem": "Wooden Flask",
+        "description": "A flask that gives off a strong alcoholic smell when opened. You seem to recall Jeralt keeping it on his person",
+        "appearance": "Chapter 3",
+        "location": "Audience Chamber - Second Floor"
+    },
+    {
+        "lostItem": "White Glove",
+        "description": "A pure white glove sewn from high-quality material. It seems like something that Edelgard would own.",
+        "appearance": "Chapter 3",
+        "location": "Black Eagle Classroom"
+    },
+    {
+        "lostItem": "Time-worn Quill Pen",
+        "description": "Writing utensil adorned with a beautiful black feather. It probably belongs to someone who often writes letters.",
+        "appearance": "Chapter 7",
+        "location": "Black Eagle Classroom"
+    },
+    {
+        "lostItem": "Eastern Porcelain",
+        "description": "A gift container said to have been made in the far east. It probably belongs to a person of high class.",
+        "appearance": "Chapter 10",
+        "location": "Black Eagle Classroom"
+    },
+    {
+        "lostItem": "Noxious Handkerchief",
+        "description": "A handkerchief soaked in a strange chemical. It probably belongs to someone who is callous in their methods.",
+        "appearance":"Chapter 4",
+        "location":"Training Grounds"
+    },
+        {
+        "lostItem": "Hresvelg Treatise",
+        "description": "A treatise compiled during the life of Emperor Wilhelm. It probably belongs to a proponent of devious tactics.",
+        "appearance":"Chapter 7",
+        "location": "Stable"
+    },
+        {
+        "lostItem": "Folding Razor",
+        "description": "A meticulously sharpened straight-blade razor. It probably belongs to a gentleman who prefers a close shave.",
+        "appearance":"Chapter 9",
+        "location":"Training Grounds"
+    },
+        {
+        "lostItem": "Bag of Tea Leaves",
+        "description": "A small bag containing a mixed variety of tea leaves. It probably belongs to someone who is interested in tea.",
+        "appearance":"Chapter 4",
+        "location":"Black Eagle Classroom"
+    },
+        {
+        "lostItem": "Agricultural Survey",
+        "description": "Writing utensil adorned with a beautiful black feather. It probably belongs to someone who often writes letters.",
+        "appearance":"Chapter 6",
+        "location": "Stable"
+    },    {
+        "lostItem": "Maintenance Oil",
+        "description": "A jar containing oil for weapon maintenance. It probably belongs to someone who collects weapons.",
+        "appearance":"Chapter 11",
+        "location": "Dining Hall"
+    },    {
+        "lostItem": "Feather Pillow",
+        "description": "A pillow stuffed with soft bird feathers. It probably belongs to someone who is picky about their bedding.",
+        "appearance":"Chapter 5",
+        "location": "Dining Hall"
+    },    {
+        "lostItem": "The Saints Revealed",
+        "description": "An unofficial account of the Four Saints' deeds during the War of Heroes. It probably belongs to a history buff.",
+        "appearance":"Chapter 8",
+        "location": "Reception Hall"
+    },          {
+        "lostItem": "Animated Bait",
+        "description": "Fishing bait that has been magically animated. It probably belongs to an experienced magic user who loves fishing.",
+        "appearance":"Chapter 9",
+        "location": "Library - Second Floor"
+    },    {
+        "lostItem": "Tattered Overcoat",
+        "description": "An overcoat with many holes and tears. It probably belongs to someone who often finds themselves in fights.",
+        "appearance":"Chapter 3",
+        "location": "Training Grounds"
+    },    {
+        "lostItem": "Thunderbrand Replica",
+        "description": "A training sword modeled after Thunderbrand. It probably belongs to someone who is enthusiastic about training.",
+        "appearance":"Chapter 4",
+        "location": "Training Grounds"
+    },    {
+        "lostItem": "Grounding Charm",
+        "description": "A charm said to prevent lightning from striking nearby. It probably belongs to someone who is afraid of lightning.",
+        "appearance":"Chapter 11",
+        "location": "Dining Hall"
+    },           {
+        "lostItem": "Needle and Thread",
+        "description": "A needle and a spool of thread. They probably belong to someone who hides away doing needlework.",
+        "appearance":"Chapter 5",
+        "location": "Dormitory 1st Floor"
+    },    {
+        "lostItem": "Still-Life Picture",
+        "description": "A still-life painting that features an unusual flower. It probably belongs to someone who is fond of art.",
+        "appearance":"Chapter 8",
+        "location": "Dormitory 1st Floor"
+    },    {
+        "lostItem": "Hedgehog Case",
+        "description": "An accessory case embroidered with a cute hedgehog. It probably belongs to a female noble.",
+        "appearance":"Chapter 11",
+        "location": "Cemetery"
+    },    {
+        "lostItem": "Silver Brooch",
+        "description": "A brooch depicting the Mittelfrank Opera Company logo. It probably belongs to someone involved with the opera.",
+        "appearance":"Chapter 6",
+        "location": "Officers Academy"
+    },           {
+        "lostItem": "Songstress Poster",
+        "description": "A brooch depicting the Mittelfrank Opera Company logo. It probably belongs to someone involved with the opera.",
+        "appearance":"Chapter 8",
+        "location": "Black Eagle Classroom"
+    },    {
+        "lostItem": "Lovely Comb",
+        "description": "A beautiful red comb made from tortoiseshell. It probably belongs to someone who takes care of their long hair.",
+        "appearance":"Chapter 10",
+        "location": "Greenhouse"
+    },    {
+        "lostItem": "Exotic Feather",
+        "description": "A decorative feather from a rare bird found in Brigid. It probably belongs to someone who used to live there.",
+        "appearance":"Chapter 5",
+        "location": "Reception Hall"
+    },    {
+        "lostItem": "Small Tanned Hide",
+        "description": "A small animal's hide which has been meticulously tanned. It probably belongs to a skilled hunter.",
+        "appearance":"Chapter 7",
+        "location": "Reception Hall"
+    }  ,    {
+        "lostItem": "Annotated Dictionary",
+        "description": "A dictionary of a foreign language with translations. It probably belongs to someone from afar.",
+        "appearance":"Chapter 11",
+        "location": "Dining Hall"
+    } , 
+    {
+        "lostItem": "Dulled Longsword",
+        "description": "A worn iron longsword that feels quite heavy. It seems like something Dimitri would own.",
+        "appearance": "Chapter 3",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Black Leather Gloves",
+        "description": "High-quality leather gloves for wearing under gauntlets. They probably belong to someone picky about armor.",
+        "appearance": "Chapter 6",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Training Logbook",
+        "description": "A detailed record of someone's combat training. It probably belongs to someone who trains relentlessly.",
+        "appearance": "Chapter 10",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Gold Earring",
+        "description": "An earring featuring traditional Duscur designs. It probably belongs to someone from the Duscur region.",
+        "appearance": "Chapter 4",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Gardening Shears",
+        "description": "A pair of shears specially designed for pruning plants. They probably belong to someone who gardens as a hobby.",
+        "appearance": "Chapter 6",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Iron Cooking Pot",
+        "description": "A durable iron pot showing no signs of use. It probably belongs to someone who is picky about cooking utensils.",
+        "appearance": "Chapter 10",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Sword Belt Fragment",
+        "description": "A metal piece from a sword belt that broke due to wear. It probably belongs to someone who is devoted to training.",
+        "appearance": "Chapter 5",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Black Iron Spur",
+        "description": "An item awarded during Kingdom knighting ceremonies. It probably belongs to someone closely related to a knight.",
+        "appearance": "Chapter 7",
+        "location": "Dining Hall"
+    },
+    {
+        "lostItem": "Toothed Dagger",
+        "description": "A uniquely shaped dagger, the back of which is toothed. It probably belongs to someone who likes rare weapons.",
+        "appearance": "Chapter 10",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Bundle of Herbs",
+        "description": "A bundle of inexpensive herbs used in cooking. It probably belongs to someone who knows a lot about plants.",
+        "appearance": "Chapter 6",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Evil-Repelling Amulet",
+        "description": "An amulet imbued with holy magic that wards off evil. It probably belongs to someone who is afraid of ghosts.",
+        "appearance": "Chapter 9",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Moon Knight's Tale",
+        "description": "A story recorded during the Crescent Moon War. It probably belongs to someone who reads tales of chivalry.",
+        "appearance": "Chapter 11",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Unused Lipstick",
+        "description": "Lipstick that would make an ideal gift for a young lady. It probably belongs to someone who likes wooing women.",
+        "appearance": "Chapter 5",
+        "location": "Reception Hall"
+    },
+    {
+        "lostItem": "Crumpled Love Letter",
+        "description": "A carelessly discarded love letter. It probably belongs to someone with a complicated love life.",
+        "appearance": "Chapter 8",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "The History of Sreng",
+        "description": "A book recording the history of the Sreng people. It probably belongs to someone who has ties to Sreng.",
+        "appearance": "Chapter 11",
+        "location": "Blue Lion Classroom"
+    },
+    {
+        "lostItem": "How to Bake Sweets",
+        "description": "A note about how to make simple baked sweets. It probably belongs to someone who enjoys baking.",
+        "appearance": "Chapter 6",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Fruit Preserves",
+        "description": "Bottled fruit preserved in sugar. It probably belongs to someone who enjoys baking or eating sweets.",
+        "appearance": "Chapter 8",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem":"Book of Ghost Stories",
+        "description": "A collection of terrifying tales from all over Fódlan. It probably belongs to someone who likes ghost stories.",
+        "appearance": "Chapter 9",
+        "location":"Cathedral"
+    },
+    {
+        "lostItem": "School of Sorcery Book",
+        "description": "A textbook from the Kingdom's School of Sorcery. It probably belongs to someone who went to that school.",
+        "appearance": "Chapter 3",
+        "location":"Dining Hall"
+    },
+    {
+        "lostItem":"Unfinished Score",
+        "description":"Sheet music with unusual lyrics written in by hand. It probably belongs to someone who likes to sing.",
+        "appearance":"Chapter 9",
+        "location":"Blue Lion Classroom"
+    },
+    {
+        "lostItem": "Wax Diptych",
+        "description":"A wax diptych that has been thoroughly used. It probably belongs to someone who is zealous about studying.",
+        "appearance":"Chapter 11",
+        "location":"Dining Hall"
+
+    },
+    {
+        "lostItem":"Curry Comb",
+        "description":"A comb decorated with pegasi, used for grooming horses. It probably belongs to someone who cares for horses.",
+        "appearance":"Chapter 5",
+        "location": "Entrance Hall"
+    },
+    {
+        "lostItem": "Jousting Almanac",
+        "description":"A record of jousting matches held in Faerghus. It probably belongs to someone who looks up to knights.",
+        "appearance":"Chapter 10",
+        "location": "Stable"
+    },
+    {
+        "lostItem": "Leather Bow Sheath",
+        "description": "A leather bow sheath engraved with an unfamiliar script. It seems like something Claude would own.",
+        "appearance": "Chapter 3",
+        "location": "Reception Hall"
+    },
+    {
+        "lostItem": "Mild Stomach Poison",
+        "description": "A small bottle labeled \"Mild Stomach Poison\" that seems fairly harmless. It probably belongs to a schemer.",
+        "appearance": "Chapter 8",
+        "location": "Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Board Game Piece",
+        "description": "A high-quality board game piece made of precious stone. It probably belongs to someone with a tactical mind.",
+        "appearance": "Chapter 10",
+        "location": "Reception Hall"
+    },
+    {
+        "lostItem": "Artificial Flower",
+        "description": "Bright red cloth formed into the shape of a rose. It probably belongs to someone who wears flashy clothes.",
+        "appearance": "Chapter 4",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "A Treatise on Etiquette",
+        "description": "A book detailing the etiquette of high society. It probably belongs to someone who is acutely aware of their nobility.",
+        "appearance": "Chapter 8",
+        "location": "Entrance Hall"
+    },
+    {
+        "lostItem": "Silk Handkerchief",
+        "description": "A fine white silk handkerchief. It probably belongs to a noble who cares about their personal grooming.",
+        "appearance": "Chapter 11",
+        "location": "Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Wooden Button",
+        "description": "A button that seems to have popped off a man's shirt. It probably belongs to someone with a large physique.",
+        "appearance": "Chapter 3",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Burlap Sack of Rocks",
+        "description": "A heavy sack filled to the brim with rocks. It probably belongs to someone who likes training their muscles.",
+        "appearance": "Chapter 7",
+        "location": "Dining Hall"
+    },
+    {
+        "lostItem": "Big Spoon",
+        "description": "A spoon big enough to ladle out a person's entire portion with one scoop. It probably belongs to a big eater.",
+        "appearance": "Chapter 9",
+        "location": "Dining Hall"
+    },
+    {
+        "lostItem": "Art Book",
+        "description": "A book about art movements in Fódlan over the centuries. It probably belongs to someone who is interested in art.",
+        "appearance": "Chapter 5",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Blue Stone",
+        "description": "A rare blue stone that could be ground into a pigment. It probably belongs to someone who likes to paint.",
+        "appearance": "Chapter 9",
+        "location": "Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Letter to the Goddess",
+        "description": "An impassioned letter written to the goddess. It probably belongs to someone who daydreams about the goddess.",
+        "appearance": "Chapter 10",
+        "location": "Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Encyclopedia of Sweets",
+        "description": "A book describing sweet treats from all across Fódlan. It probably belongs to someone who adores sweets.",
+        "appearance": "Chapter 5",
+        "location": "Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Princess Doll",
+        "description": "A doll that was hidden in a leather bag for magic tools. It probably belongs to someone who secretly loves dolls.",
+        "appearance": "Chapter 9",
+        "location": "Reception Hall"
+    },
+    {
+        "lostItem": "New Bottle of Perfume",
+        "description": "An unopened bottle containing fancy perfume. It probably belongs to someone who doesn't often wear perfume.",
+        "appearance": "Chapter 11",
+        "location": "Reception Hall"
+    },
+    {
+        "lostItem": "Confessional Letter",
+        "description": "A letter confessing offenses to the goddess. It probably belongs to someone who feels deeply repentant.",
+        "appearance": "Chapter 4",
+        "location": "Stable"
+    },
+    {
+        "lostItem": "How to be Tidy",
+        "description": "A book containing tips for keeping things tidy. It probably belongs to someone who has a hard time cleaning.",
+        "appearance": "Chapter 6",
+        "location": "Stable"
+    },
+    {
+        "lostItem": "Bag of Seeds",
+        "description":"A bag containing seeds that birds and mice would eat. It probably belongs to someone who cares for animals.",
+        "appearance":"Chapter 10",
+        "location":"Cathedral"
+    },
+    {
+        "lostItem":"Used Bottle of Perfume",
+        "description": "A bottle containing a rare perfume. It probably belongs to someone who is particular about fashion.",
+        "appearance":"Chapter 4",
+        "location": "Marketplace"
+    },
+    {
+        "lostItem":"Spotless Bandage",
+        "description":"A bandage that is clean despite being used. It probably belongs to someone who was slacking on their training.",
+        "appearance":"Chapter 6",
+        "location":"Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Handmade Hair Clip",
+        "description":"A cute, but incomplete, hair accessory. It probably belongs to someone who is good at making accessorie",
+        "appearance":"Chapter 10",
+        "location":"Golden Deer Classroom"
+    },
+    {
+        "lostItem": "Hand Drawn Map",
+        "description":"A practical map of the forest made by Jeralt. It probably belongs to someone who has known Jeralt for a long time.",
+        "appearance":"Chapter 3",
+        "location": "Officers Academy"
+    },
+    {
+        "lostItem":"Crude Arrowheads",
+        "description":"Rough-hewn arrowheads fashioned from rocks. They probably belong to someone who favors the bow.",
+        "appearance":"Chapter 8",
+        "location":"Dining Hall"
+    },
+    {
+        "lostItem":"Fur Scarf",
+        "description":"A wolf pelt sewn into the shape of a scarf. It probably belongs to someone affiliated with a village of hunters.",
+        "appearance":"Chapter 10",
+        "location":"Amiibo Gazebo"
+    },
+    {
+        "lostItem": "Unfinished Fable",
+        "description": "A children's fable that ends partway through. It probably belongs to someone who likes writing stories.",
+        "appearance": "Chapter 8",
+        "location": "Second Floor - Advisory Room"
+    },
+    {
+        "lostItem": "Old Fishing Rod",
+        "description": "A well-used fishing rod with no hook. It probably belongs to a fisher who doesn't care about how much they catch.",
+        "appearance": "Chapter 9",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Snapped Writing Quill",
+        "description": "A writing quill that has snapped from overuse. It probably belongs to someone who does lots of paperwork.",
+        "appearance": "Chapter 10",
+        "location": "Second Floor - Advisory Room"
+    },
+    {
+        "lostItem": "Antique Clasp",
+        "description": "An expensive-looking clasp with an outdated design. It probably belongs to someone who is not up on trends.",
+        "appearance": "Chapter 6",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Old Map of Enbarr",
+        "description": "An old map of Enbarr. It probably belongs to someone with a connection to the Imperial capital of the past.",
+        "appearance": "Chapter 8",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Dusty Book of Fables",
+        "description": "A well-loved book of children's fables. It probably belongs to someone who has fond memories associated with it.",
+        "appearance": "Chapter 10",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Sketch of a Sigil",
+        "description": "A drawing of a circle used to activate magic. It probably belongs to someone interested in magic and Crests.",
+        "appearance": "Chapter 3",
+        "location": "Second Floor"
+    },
+    {
+        "lostItem": "Hammer and Chisel",
+        "description": "A sturdy wooden hammer and metal chisel. They probably belong to someone who frequently conducts research.",
+        "appearance": "Chapter 6",
+        "location": "Second Floor"
+    },
+    {
+        "lostItem": "Lens Cloth",
+        "description": "A clean white cloth decorated with fine embroidery. It probably belongs to someone who wears glasses.",
+        "appearance": "Chapter 9",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Wellness Herbs",
+        "description": "Herbs that aid with persistent headaches. They probably belong to an adult with a taste for liquor.",
+        "appearance": "Chapter 4",
+        "location": "Second Floor - Infirmary"
+    },
+    {
+        "lostItem": "Clean Dusting Cloth",
+        "description": "An unsoiled dusting cloth that has clearly never been used. It probably belongs to someone who hates cleaning.",
+        "appearance": "Chapter 8",
+        "location": "Second Floor - Infirmary"
+    },
+    {
+        "lostItem": "Light Purple Veil",
+        "description": "A headscarf that has been dyed purple. It probably belongs to someone who likes fashion.",
+        "appearance": "Chapter 10",
+        "location": "Greenhouse"
+    },
+    {
+        "lostItem": "Silver Necklace",
+        "description": "A silver necklace engraved with the Crest of Seiros. It probably belongs to a devout believer.",
+        "appearance": "Chapter 6",
+        "location": "Entrance Hall"
+    },
+    {
+        "lostItem": "Carving Hammer",
+        "description": "A carving hammer used to strike a chisel. It probably belongs to someone who is interested in woodcarving.",
+        "appearance": "Chapter 9",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Noseless Puppet",
+        "description": "An exquisitely crafted, but incomplete, wooden puppet. It probably belongs to someone who enjoys woodcarving.",
+        "appearance": "Chapter 10",
+        "location": "Stable"
+    },
+    {
+        "lostItem": "Mysterious Notebook",
+        "description": "A notebook full of cheesy jokes and bad puns. It probably belongs to someone who likes telling jokes.",
+        "appearance": "Chapter 4",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Foreign Gold Coin",
+        "description": "An unusual gold coin engraved with mysterious letters. It probably belongs to someone who likes collecting coins.",
+        "appearance": "Chapter 8",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Introduction to Magic",
+        "description": "A simple and easy to understand textbook on magic. It probably belongs to someone who is not good at magic.",
+        "appearance": "Chapter 10",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Badge of Graduation",
+        "description": "A badge awarded for graduation from the Garreg Mach Officers Academy. It probably belongs to a graduate.",
+        "appearance": "Chapter 4",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Letter to Rhea",
+        "description": "A letter that seems to be written to Rhea. It probably belongs to someone with a deep connection to Rhea.",
+        "appearance": "Chapter 7",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Weathered Cloak",
+        "description": "A thick, but rather worn-out, cloak. It probably belongs to someone who battles enemies outdoors.",
+        "appearance": "Chapter 10",
+        "location": "Entrance Hall"
+    },
+    {
+        "lostItem": "Bundle of Dry Hemp",
+        "description": "A bundle of hemp that can be used to make bowstrings. It probably belongs to someone who is skilled with a bow.",
+        "appearance": "Chapter 7",
+        "location": "Marketplace"
+    },
+    {
+        "lostItem": "Centipede Picture",
+        "description": "A sketch of a centipede with countless little holes in it. It probably belongs to someone who hates insects.",
+        "appearance": "Chapter 9",
+        "location": "north of the Stable"
+    },
+    {
+        "lostItem": "Animal Bone Dice",
+        "description": "Cubic dice made from animal bones. They probably belong to someone who enjoys weird games.",
+        "appearance": "Chapter 10",
+        "location": "Training Grounds"
+    },
+    {
+        "lostItem": "Portrait of Rhea",
+        "description": "A portrait of Rhea made for a believer. It probably belongs to someone with an emotional attachment to Rhea.",
+        "appearance": "Chapter 5",
+        "location": "Dormitory 2F"
+    },
+    {
+        "lostItem": "Well-Used Hatchet",
+        "description": "A hatchet with a wide variety of potential uses. It probably belongs to someone who frequently works outside.",
+        "appearance": "Chapter 8",
+        "location": "Greenhouse"
+    },
+    {
+        "lostItem": "Old Cleaning Cloth",
+        "description": "An old cleaning cloth with a Crest-like design. It probably belongs to someone who worked for a noble house.",
+        "appearance": "Chapter 9",
+        "location": "Second Floor"
+    },
+    {
+        "lostItem": "Secret Ledger",
+        "description": "Countless numbers are listed in this ledger. It probably belongs to someone deeply involved in commerce.",
+        "appearance": "Chapter 4",
+        "location": "Officers Academy"
+    },
+    {
+        "lostItem": "Balance Scale",
+        "description": "A precious tool used for measuring the weight of objects. It probably belongs to someone in need of accuracy.",
+        "appearance": "Chapter 8",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Rare Item Index",
+        "description": "A list of rare items in Fódlan. It probably belongs to someone with a deep interest in rare things...",
+        "appearance": "Part 2",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Armor Clasp",
+        "description": "A clasp used to connect various pieces of armor. It probably belongs to someone who favors black armor.",
+        "appearance": "Chapter 13",
+        "location": "Second Floor - Common Room"
+    },
+    {
+        "lostItem": "Black Hair Tie",
+        "description": "A thick string used to control unruly hair. It probably belongs to someone who ties their hair back.",
+        "appearance": "Chapter 14",
+        "location": "Stable"
+    },
+    {
+        "lostItem": "Jar of Sweets",
+        "description": "A jar filled with sweets. It probably belongs to someone with a sweet tooth.",
+        "appearance": "Chapter 15",
+        "location": "Dinning Hall"
+    },
+    {
+        "lostItem": "Elegant Hair Clip",
+        "description": "An elegant white hair clip, likely belonging to someone with grace. A lovely gift for most anyone.",
+        "appearance": "Chapter 3",
+        "location": "Second Floor - Audience Chamber"
+    },
+    {
+        "lostItem": "Seiros Scriptures",
+        "description": "A book of old scriptures engraved with the Crest of Seiros. It probably belongs to someone affiliated with the Church.",
+        "appearance": "Chapter 6",
+        "location": "Cathedral"
+    },
+    {
+        "lostItem": "Faded Star Chart",
+        "description": "A star chart that was created by the church. It probably belongs to someone who who knows a lot about stars.",
+        "appearance": "Chapter 9",
+        "location": "Second Floor - Library"
+    },
+    {
+        "lostItem": "Makeup Brush",
+        "description": "A thin brush for applying makeup around the eyes. It probably belongs to someone who wears eyeshadow.",
+        "appearance": "Chapter 5",
+        "location": "Sauna"
+    },
+    {
+        "lostItem": "Suspicious Dice",
+        "description": "Dice that always produce the same result when thrown. They probably belong to a skilled swindler.",
+        "appearance": "Chapter 8",
+        "location": "Officer Academy"
+    },
+    {
+        "lostItem": "Well-Worn Hammock",
+        "description": "A Dagdan cot for sleeping outside. It probably belongs to someone with a history of roaming from place to place.",
+        "appearance": "Chapter 6",
+        "location": "Knights' Hall"
+    },
+    {
+        "lostItem": "Stiff Hand Wrap",
+        "description": "A hand bandage splotched with blood, as though used in a fist fight. It probably belongs to a seasoned brawler.",
+        "appearance": "Chapter 9",
+        "location": "Fishing Pond"
+    },
+    {
+        "lostItem": "Nimbus Charm",
+        "description": "A cursed charm said to summon clouds. Its efficacy is dubious. Likely belongs to someone who avoids sunlight.",
+        "appearance": "Chapter 5",
+        "location": "Dormitory 1F"
+    },
+    {
+        "lostItem": "Repellent Powder",
+        "description": "A powder derived from insect-repellent flowers. It probably belongs to someone who hates bugs.",
+        "appearance": "Chapter 8",
+        "location": "Officers Academy"
+    },
+    {
+        "lostItem": "Shiny Striated Pebble",
+        "description": "A small stone streaked with colorful lines. It probably belongs to someone who likes collecting pebbles.",
+        "appearance": "Chapter 7",
+        "location": "Dormitory 1F"
+    },
+    {
+        "lostItem": "Basket of Berries",
+        "description": "A basket heaped with wild berries. It probably belongs to someone who is nostalgic for the flavors of the forest.",
+        "appearance": "Chapter 10",
+        "location": "Greenhouse"
+    }
+]

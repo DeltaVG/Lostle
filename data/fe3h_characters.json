@@ -1,0 +1,649 @@
+[
+  {
+    "character": "Edelgard",
+    "faction": 0,
+    "crest": ["Seiros" , "Flames"],
+    "favoriteGifts": [
+      "Carnation",
+      "Armored Bear Stuffy",
+      "Monarch Studies Book",
+      "Board Game"
+    ],
+    "items": [
+      "White Glove",
+      "Time-worn Quill Pen",
+      "Eastern Porcelain"
+    ]
+  },
+  {
+    "character": "Dimitri",
+    "faction": 1,
+    "crest": ["Blaiddyd"],
+    "favoriteGifts": [
+      "Training Weight",
+      "Whetstone",
+      "Riding Boots",
+      "Ceremonial Sword"
+    ],
+    "items": [
+      "Dulled Longsword",
+      "Black Leather Gloves",
+      "Training Logbook"
+    ]
+  },
+  {
+    "character": "Claude",
+    "faction": 2,
+    "crest": ["Riegan"],
+    "favoriteGifts": [
+      "Riding Boots",
+      "Book of Crest Designs",
+      "Exotic Spices",
+      "Board Game"
+    ],
+    "items": [
+      "Leather Bow Sheath",
+      "Mild Stomach Poison",
+      "Board Game Piece"
+    ]
+  },
+  {
+    "character": "Hubert",
+    "faction": 0,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Coffee Beans",
+      "Board Game",
+      "The History of Fodlan"
+    ],
+    "items": [
+      "Hresvelg Treatise",
+      "Noxious Handkerchief",
+      "Folding Razor"
+    ]
+  },
+  {
+    "character": "Ferdinand",
+    "faction": 0,
+    "crest": ["Cichol"],
+    "favoriteGifts": [
+      "Riding Boots",
+      "Whetstone",
+      "Tea Leaves"
+    ],
+    "items": [
+      "Maintenance Oil",
+      "Agricultural Survey",
+      "Bag of Tea Leaves"
+    ]
+  },
+  {
+    "character": "Linhardt",
+    "faction": 0,
+    "crest": ["Cethleann"],
+    "favoriteGifts": [
+      "Tasty Baked Treat",
+      "Book of Crest Designs",
+      "Fishing Float"
+    ],
+    "items": [
+      "The Saints Revealed",
+      "Feather Pillow",
+      "Animated Bait"
+    ]
+  },
+  {
+    "character": "Caspar",
+    "faction": 0,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Training Weight",
+      "Whetstone",
+      "Hunting Dagger",
+      "Smoked Meat"
+    ],
+    "items": [
+      "Thunderbrand Replica",
+      "Tattered Overcoat",
+      "Grounding Charm"
+    ]
+  },
+  {
+    "character": "Bernadetta",
+    "faction": 0,
+    "crest": ["Indech"],
+    "favoriteGifts": [
+      "Pitcher Plant",
+      "Armored Bear Stuffy",
+      "Book of Sheet Music",
+      "Watering Can",
+      "Landscape Painting",
+      "Dapper Handkerchief"
+    ],
+    "items": [
+      "Needle and Thread",
+      "Still-Life Picture",
+      "Hedgehog Case"
+    ]
+  },
+  {
+    "character": "Dorothea",
+    "faction": 0,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Book of Sheet Music",
+      "Gemstone Beads",
+      "Stylish Hair Clip"
+    ],
+    "items": [
+      "Silver Brooch",
+      "Songstress Poster",
+      "Lovely Comb"
+    ]
+  },
+  {
+    "character": "Petra",
+    "faction": 0,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Sunflower",
+      "Hunting Dagger",
+      "Exotic Spices",
+      "Smoked Meat"
+    ],
+    "items": [
+      "Exotic Feather",
+      "Small Tanned Hide",
+      "Annotated Dictionary"
+    ]
+  },
+  {
+    "character": "Dedue",
+    "faction": 1,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Exotic Spices",
+      "Floral Adornment",
+      "Watering Can"
+    ],
+    "items": [
+      "Gold Earring",
+      "Gardening Sheers",
+      "Iron Cooking Pot"
+    ]
+  },
+  {
+    "character": "Felix",
+    "faction": 1,
+    "crest": ["Fraldarius"],
+    "favoriteGifts": [
+      "Smoked Meat",
+      "Hunting Dagger",
+      "Training Weight",
+      "Ceremonial Sword"
+    ],
+    "items": [
+      "Black Iron Spur",
+      "Sword Belt Fragment",
+      "Toothed Dagger"
+    ]
+  },
+  {
+    "character": "Ashe",
+    "faction": 1,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Violet",
+      "Legends of Chivalry",
+      "Exotic Spices",
+      "Tasty Baked Treat",
+      "Ancient Coin"
+    ],
+    "items": [
+      "Moon Knight’s Tale",
+      "Evil-Repelling Amulet",
+      "Bundle of Herbs"
+    ]
+  },
+  {
+    "character": "Sylvain",
+    "faction": 1,
+    "crest": ["Gautier"],
+    "favoriteGifts": [
+      "Landscape Painting",
+      "Dapper Handkerchief",
+      "Board Game"
+    ],
+    "items": [
+      "Unused Lipstick",
+      "Crumpled Love Letter",
+      "The History of Sreng"
+    ]
+  },
+  {
+    "character": "Mercedes",
+    "faction": 1,
+    "crest": ["Lamine"],
+    "favoriteGifts": [
+      "Lavender",
+      "Tasty Bake Treat",
+      "Goddess Statuette",
+      "Armored Bear Stuffy",
+      "Gemstone Beads"
+    ],
+    "items": [
+      "Book of Ghost Stories",
+      "Fruit Preserves",
+      "How to Bake Sweets"
+    ]
+  },
+  {
+    "character": "Annette",
+    "faction": 1,
+    "crest": ["Dominic"],
+    "favoriteGifts": [
+      "Book of Sheet Music",
+      "Stylish Hair Clip",
+      "Arithmetic Textbook"
+    ],
+    "items": [
+      "Unfinished Score",
+      "School of Sorcery Book",
+      "Wax Diptych"
+    ]
+  },
+  {
+    "character": "Ingrid",
+    "faction": 1,
+    "crest": ["Daphnel"],
+    "favoriteGifts": [
+      "Riding Boots",
+      "Smoked Meat",
+      "Legends of Chivalry"
+    ],
+    "items": [
+      "Pegasus Horseshoes",
+      "Jousting Almanac",
+      "Curry Comb"
+    ]
+  },
+  {
+    "character": "Lorenz",
+    "faction": 2,
+    "crest": ["Gloucester"],
+    "favoriteGifts": [
+      "Rose",
+      "Floral Adornment",
+      "Tea Leaves",
+      "Book of Sheet Music"
+    ],
+    "items": [
+      "Artificial Flower",
+      "A Treatise on Etiquette",
+      "Silk Handkerchief"
+    ]
+  },
+  {
+    "character": "Raphael",
+    "faction": 2,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Smoked Meat",
+      "Training Weight",
+      "Tasty Baked Treat",
+      "Blue Cheese"
+    ],
+    "items": [
+      "Wooden Button",
+      "Burlap Sack of Rocks",
+      "Big Spoon"
+    ]
+  },
+  {
+    "character": "Ignatz",
+    "faction": 2,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Forget-me-nots",
+      "Ancient Coin",
+      "Landscape Painting",
+      "Goddess Statuette",
+      "Ceremonial Sword"
+    ],
+    "items": [
+      "Blue Stone",
+      "Art Book",
+      "Letter to the Goddess"
+    ]
+  },
+  {
+    "character": "Lysithea",
+    "faction": 2,
+    "crest": ["Gloucester", "Charon"],
+    "favoriteGifts": [
+      "Lily",
+      "Armored Bear Stuffy",
+      "Arithmetic Textbook",
+      "Tasty Baked Treat",
+      "Book of Crest Designs"
+    ],
+    "items": [
+      "Encyclopedia of Sweets",
+      "Princess Doll",
+      "New Bottle of Perfume"
+    ]
+  },
+  {
+    "character": "Marianne",
+    "faction": 2,
+    "crest": ["The Beast"],
+    "favoriteGifts": [
+      "Lily of the Valley",
+      "Dapper Handkerchief",
+      "Floral Adornment",
+      "Armored Bear Stuffy"
+    ],
+    "items": [
+      "Bag of Seeds",
+      "How to be Tidy",
+      "Confessional Letter"
+    ]
+  },
+  {
+    "character": "Hilda",
+    "faction": 2,
+    "crest": ["Gonreil"],
+    "favoriteGifts": [
+      "Anemone",
+      "Gemstone Beads",
+      "Dapper Handkerchief",
+      "Book of Sheet Music",
+      "Stylish Hair Clip",
+      "Armored Bear Stuffy"
+    ],
+    "items": [
+      "Handmade Hair Clip",
+      "Spotless Bandage",
+      "Used Bottle of Perfume"
+    ]
+  },
+  {
+    "character": "Leonie",
+    "faction": 2,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Hunting Dagger",
+      "Training Weight",
+      "Fishing Float"
+    ],
+    "items": [
+      "Hand Drawn Map",
+      "Crude Arrowheads",
+      "Fur Scarf"
+    ]
+  },
+  {
+    "character": "Seteth",
+    "faction": 3,
+    "crest": ["Cichol"],
+    "favoriteGifts": [
+      "The History of Fodlan",
+      "Fishing Float",
+      "Dapper Handkerchief"
+    ],
+    "items": [
+      "Unfinished Fable",
+      "Old Fishing Rod",
+      "Snapped Writing Quill"
+    ]
+  },
+  {
+    "character": "Flayn",
+    "faction": 3,
+    "crest": ["Cethleann"],
+    "favoriteGifts": [
+      "Forget-me-nots",
+      "Tasty Baked Treat",
+      "Armored Bear Stuffy",
+      "Stylish Hair Clip",
+      "Dapper Handkerchief"
+    ],
+    "items": [
+      "Antique Clasp",
+      "Old Map of Enbarr",
+      "Dusty Book of Fables"
+    ]
+  },
+  {
+    "character": "Hanneman",
+    "faction": 3,
+    "crest": ["Indech"],
+    "favoriteGifts": [
+      "Arithmetic Textbook",
+      "Tea Leaves",
+      "Book of Crest Designs",
+      "Dapper Handkerchief"
+    ],
+    "items": [
+      "Lens Cloth",
+      "Hammer and Chisel",
+      "Sketch of a Sigil"
+    ]
+  },
+  {
+    "character": "Manuela",
+    "faction": 3,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Book of Sheet Music",
+      "Gemstone Beads",
+      "Blue Cheese",
+      "Goddess Statuette"
+    ],
+    "items": [
+      "Wellness Herbs",
+      "Clean Dusting Cloth",
+      "Light Purple Veil"
+    ]
+  },
+  {
+    "character": "Gilbert",
+    "faction": 3,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Goddess Statuette",
+      "Fishing Float",
+      "Ceremonial Sword"
+    ],
+    "items": [
+      "Noseless Puppet",
+      "Carving Hammer",
+      "Silver Necklace"
+    ]
+  },
+  {
+    "character": "Alois",
+    "faction": 3,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Sunflower",
+      "Ancient Coin",
+      "Fishing Float",
+      "Floral Adornment"
+    ],
+    "items": [
+      "Introduction to Magic",
+      "Foreign Gold Coin",
+      "Mysterious Notebook"
+    ]
+  },
+  {
+    "character": "Catherine",
+    "faction": 3,
+    "crest": ["Charon"],
+    "favoriteGifts": [
+      "Training Weight",
+      "Whetstone",
+      "Legends of Chivalry",
+      "Blue Cheese"
+    ],
+    "items": [
+      "Weathered Cloak",
+      "Letter to Rhea",
+      "Badge of Graduation"
+    ]
+  },
+  {
+    "character": "Shamir",
+    "faction": 3,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Sunflower",
+      "Exotic Spices",
+      "Coffee Beans",
+      "Hunting Dagger",
+      "Book of Sheet Music"
+    ],
+    "items": [
+      "Bundle of Dry Hemp",
+      "Centipede Picture",
+      "Animal Bone Dice"
+    ]
+  },
+  {
+    "character": "Cyril",
+    "faction": 3,
+    "crest": ["None"],
+    "favoriteGifts": [
+      "Baby's Breath",
+      "Smoked Meat",
+      "Hunting Dagger",
+      "Watering Can"
+    ],
+    "items": [
+      "Well-Used Hatchet",
+      "Portrait of Rhea",
+      "Old Cleaning Cloth"
+    ]
+  },
+  {
+    "character": "Jeralt",
+    "faction": 3,
+    "crest": ["Seiros"],
+    "favoriteGifts": ["None"],
+    "items": [
+      "Wooden Flask"
+    ]
+  },
+  {
+    "character": "Rhea",
+    "faction": 3,
+    "crest": ["Seiros"],
+    "favoriteGifts": [
+      "Landscape Painting",
+      "Goddess Statuette",
+      "Ancient Coin"
+    ],
+    "items": [
+      "Elegant Hair Clip",
+      "Seiros Scriptures",
+      "Faded Star Chart"
+    ]
+  },
+  {
+    "character": "Yuri",
+    "faction": 4,
+    "crest": ["Aubin"],
+    "favoriteGifts": [
+      "Board Game",
+      "Tasty Baked Treat",
+      "Goddess Statuette",
+      "Arithmetic Textbook"
+    ],
+    "items": [
+      "Makeup Brush",
+      "Suspicious Dice"
+    ]
+  },
+  {
+    "character": "Balthus",
+    "faction": 4,
+    "crest": ["Chevalier"],
+    "favoriteGifts": [
+      "Ancient Coin",
+      "Ceremonial Sword",
+      "Whetstone",
+      "Blue Cheese"
+    ],
+    "items": [
+      "Well-Worn Hammock",
+      "Stiff Hand Wrap"
+    ]
+  },
+  {
+    "character": "Constance",
+    "faction": 4,
+    "crest": ["Noa"],
+    "favoriteGifts": [
+      "Lily of the Valley",
+      "Tea Leaves",
+      "Arithmetic Textbook",
+      "Book of Crest Designs"
+    ],
+    "items": [
+      "Nimbus Charm",
+      "Repellent Powder"
+    ]
+  },
+  {
+    "character": "Hapi",
+    "faction": 4,
+    "crest": ["Timotheos"],
+    "favoriteGifts": [
+      "Pitcher Plant",
+      "Tasty Baked Treat",
+      "Smoked Meat",
+      "Exotic Spices",
+      "Coffee Beans",
+      "Hunting Dagger"
+    ],
+    "items": [
+      "Shiny Striated Pebble",
+      "Basket of Berries"
+    ]
+  },
+  {
+    "character": "Jeritza",
+    "faction": 0,
+    "crest": ["Lamine"],
+    "favoriteGifts": [
+      "Rose",
+      "Tasty Baked Treat",
+      "Whetstone",
+      "Hunting Dagger"
+    ],
+    "items": [
+      "Jar of Sweets",
+      "Black Hair Tie",
+      "Armor Clasp"
+    ]
+  },
+  {
+    "character": "Anna",
+    "faction": 3,
+    "crest": "Ernest",
+    "favoriteGifts": [
+      "Forget-me-nots",
+      "Exotic Spices",
+      "Coffee Beans",
+      "Blue Cheese",
+      "Landscape Painting",
+      "Goddess Statuette"
+    ],
+    "items": [
+      "Secret Ledger",
+      "Balance Scale",
+      "Rare Item Index"
+    ]
+  }
+]
