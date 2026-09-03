@@ -160,62 +160,7 @@ body::before {
     width: 100%;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
 
-    body {
-        padding: 10px;
-    }
-
-    .section-card {
-        padding: 15px;
-    }
-
-    .hints-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        margin: 10px auto;
-    }
-
-    .hint-box {
-        aspect-ratio: auto;
-        min-height: 80px;
-        padding: 8px;
-    }
-
-    .hint-title {
-        font-size: 0.75rem;
-        margin-bottom: 4px;
-    }
-
-    .hint-btn {
-        font-size: 0.75rem;
-        padding: 8px 4px;
-    }
-
-    .hint-content {
-        font-size: 0.75rem;
-    }
-
-    #item-name {
-        font-size: 1.5rem;
-    }
-
-    .badge {
-        width: 54px;
-        height: 54px;
-        padding: 3px;
-        font-size: 0.55rem;
-        border-radius: 5px;
-        margin: 0 auto;
-        line-height: 1.1;
-    }
-    
-    .gifts-grid {
-        grid-template-columns: repeat(3, 54px);
-        gap: 3px;
-    }
-}
 
 #guess-input-section {
     display: flex;
@@ -398,4 +343,60 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+/* Mobile */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .section-card {
+        padding: 15px;
+    }
+
+    .hints-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 10px auto;
+    }
+
+    .hint-box {
+        aspect-ratio: auto;
+        min-height: 80px;
+        padding: 8px;
+    }
+
+    .hint-title {
+        font-size: 0.75rem;
+        margin-bottom: 4px;
+    }
+
+    .hint-btn {
+        font-size: 0.75rem;
+        padding: 8px 4px;
+    }
+
+    .hint-content {
+        font-size: 0.75rem;
+    }
+
+    #item-name {
+        font-size: 1.5rem;
+    }
+
+    .badge {
+        width: 54px;
+        height: 54px;
+        padding: 3px;
+        font-size: 0.55rem;
+        border-radius: 5px;
+        margin: 0 auto;
+        line-height: 1.1;
+    }
+    
+    .gifts-grid {
+        grid-template-columns: repeat(3, 54px);
+        gap: 3px;
+    }
 }
