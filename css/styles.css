@@ -384,6 +384,26 @@ footer a:hover {
     #item-name {
         font-size: 1.5rem;
     }
+    #guesses-history-section {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0;
+        overflow-x: hidden;
+    }
+
+    #guesses-table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    #guesses-table th:nth-child(1),
+    #guesses-table td:nth-child(1) { width: 25%; }
+
+    #guesses-table th:nth-child(2),
+    #guesses-table td:nth-child(2) { width: 25%; }
+
+    #guesses-table th:nth-child(3),
+    #guesses-table td:nth-child(3) { width: 50%; }
 
     .badge {
         width: 54px;
