@@ -160,12 +160,45 @@ body::before {
     width: 100%;
 }
 
-@media (max-width: 480px) {
-    .hints-grid {
-        grid-template-columns: 1fr; 
+/* Mobile */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
     }
+
+    .section-card {
+        padding: 15px;
+    }
+
+    .hints-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 10px auto;
+    }
+
     .hint-box {
-        aspect-ratio: 21 / 9; 
+        aspect-ratio: auto;
+        min-height: 80px;
+        padding: 8px;
+    }
+
+    .hint-title {
+        font-size: 0.75rem;
+        margin-bottom: 4px;
+    }
+
+    .hint-btn {
+        font-size: 0.75rem;
+        padding: 8px 4px;
+    }
+
+    .hint-content {
+        font-size: 0.75rem;
+    }
+
+    #item-name {
+        font-size: 1.5rem;
     }
 }
 
@@ -187,20 +220,11 @@ body::before {
 
 #guess-input {
     flex: 1;
-    padding: 10px 14px;
-    font-size: 1rem;
-    border: 2px solid #333;
-    border-radius: 4px;
+    min-width: 0; 
 }
 
 #submit-btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    white-space: nowrap; 
 }
 
 #submit-btn:hover {
