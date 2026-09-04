@@ -6,9 +6,17 @@ const itemNameDisplay = document.getElementById("item-name");
 const guessInput = document.getElementById("guess-input");
 const submitBtn = document.getElementById("submit-btn");
 const guessCountDisplay = document.getElementById("guess-count-display");
-const feedbackDisplay = document.getElementById("feedback");
+const errorTextDisplay = document.getElementById("input-error");
 const guessesTbody = document.getElementById("guesses-tbody");
 const suggestionsList = document.getElementById("suggestions-list");
+
+// Popup Elements
+const modalOverlay = document.getElementById('endgame-popup');
+const popup = document.getElementById('popup');
+const headline = document.getElementById('headline');
+const ownerName = document.getElementById('owner-name');
+const ownerImage = document.getElementById('owner-image');
+const closeBtn = document.getElementById('close-btn');
 
 // Hint Buttons
 const hintButtons = {
@@ -18,7 +26,7 @@ const hintButtons = {
   fac: document.getElementById("hint-fac-btn"),
 };
 
-const HINT_THRESHOLDS = { desc: 1, app: 2, loc: 3, fac: 4 };
+const HINT_THRESHOLDS = { desc: 2, app: 0, loc: 2, fac: 4 };
 
 // Game State Variables
 let secretCharacter = null;
@@ -50,14 +58,26 @@ let gameState = {
   isGameOver: false,
 };
 
-function loadSavedState() {
+function loadSavedState(currentItem) {
   const saved = localStorage.getItem("lostle_daily_state");
   if (saved) {
     const parsed = JSON.parse(saved);
-    if (parsed.date === getTodayKey()) {
+    if (parsed.date === getTodayKey() && parsed.item === currentItem) {
       gameState = parsed;
+      return;
     }
   }
+
+
+  localStorage.removeItem("lostle_daily_state");
+  gameState = {
+    date: getTodayKey(),
+    item: currentItem,
+    guesses: [],
+    revealedHints: { desc: false, app: false, loc: false, fac: false },
+    isGameOver: false,
+  };
+  saveState();
 }
 
 function saveState() {
@@ -74,13 +94,14 @@ function getDailyItem(itemsList) {
   );
   const dayIndex = Math.floor((today - epoch) / (1000 * 60 * 60 * 24));
 
-  return itemsList[Math.abs(dayIndex) % itemsList.length];
+  let hash = (Math.abs(dayIndex) + 1) * 2654435760;
+  hash = Math.abs((hash ^ (hash >> 16)) >>> 0);
+
+  return itemsList[hash % itemsList.length];
 }
 
 // Initialize Game
 async function initGame() {
-  loadSavedState();
-
   try {
     const [charResponse, itemResponse] = await Promise.all([
       fetch("data/fe3h_characters.json"),
@@ -98,6 +119,8 @@ async function initGame() {
     secretItemDetails = getDailyItem(lostItemData);
     secretItem = secretItemDetails.lostItem;
 
+    loadSavedState(secretItem);
+
     // Reverse lookup item
     secretCharacter = characterData.find(
       (c) => c.items && c.items.includes(secretItem),
@@ -114,7 +137,13 @@ async function initGame() {
     itemNameDisplay.textContent = secretItem;
 
     // Restore saved progress on page load
+    guessInput.disabled = false;
+    submitBtn.disabled = false;
+    modalOverlay.classList.remove("show", "dismissed");
+    popup.classList.remove("shake");
     guessesTbody.innerHTML = "";
+
+
     gameState.guesses.forEach((charName) => {
       const charObj = characterData.find(
         (c) => c.character.toLowerCase() === charName.toLowerCase(),
@@ -127,6 +156,13 @@ async function initGame() {
 
     if (gameState.isGameOver) {
       endGame(false);
+      const lastGuess = gameState.guesses[gameState.guesses.length - 1];
+      const isWin =
+        lastGuess &&
+        lastGuess.toLowerCase() === secretCharacter.character.toLowerCase();
+      showEndGameModal(isWin);
+      modalOverlay.classList.remove("show");
+      modalOverlay.classList.add("dismissed");
     }
   } catch (error) {
     console.error("Failed to load character or lost item data:", error);
@@ -273,13 +309,14 @@ function normalizeCrests(char) {
 // Submit Guess
 function submitGuess(characterName) {
   if (gameState.isGameOver) return;
+  errorTextDisplay.textContent = "";
 
   const guessedChar = characterData.find(
     (entry) => entry.character.toLowerCase() === characterName.toLowerCase(),
   );
 
   if (!guessedChar) {
-    feedbackDisplay.textContent = `"${characterName}" is not a valid character!`;
+    errorTextDisplay.textContent = `"${characterName}" is not a valid character!`;
     return;
   }
 
@@ -288,7 +325,7 @@ function submitGuess(characterName) {
       .map((g) => g.toLowerCase())
       .includes(characterName.toLowerCase())
   ) {
-    feedbackDisplay.textContent = `You already guessed "${characterName}"!`;
+    errorTextDisplay.textContent = `You already guessed "${characterName}"!`;
     return;
   }
 
@@ -300,21 +337,16 @@ function submitGuess(characterName) {
   addGuessToTable(guessedChar, true);
 
   // Check Win / Loss condition
-  if (
-    guessedChar.character.toLowerCase() ===
-    secretCharacter.character.toLowerCase()
-  ) {
-    feedbackDisplay.textContent = `🎉 Correct! ${secretCharacter.character} is the owner of "${secretItem}"!`;
+  const isCorrect = guessedChar.character.toLowerCase() === secretCharacter.character.toLowerCase();
+  
+  if (isCorrect) {
     gameState.isGameOver = true;
     saveState();
-    endGame(true);
+    endGame(true, true); 
   } else if (gameState.guesses.length >= MAX_GUESSES) {
-    feedbackDisplay.textContent = `❌ Game Over! The owner was ${secretCharacter.character}.`;
     gameState.isGameOver = true;
     saveState();
-    endGame(true);
-  } else {
-    feedbackDisplay.textContent = "Incorrect!";
+    endGame(true, false); 
   }
 
   // Clear inputs and dropdown
@@ -385,7 +417,7 @@ function addGuessToTable(guessedChar, shouldAnimate = true) {
   guessesTbody.insertBefore(tr, guessesTbody.firstChild);
 }
 
-function endGame(shouldRevealHints = false) {
+function endGame(shouldRevealHints = false, isWin = null) {
   guessInput.disabled = true;
   submitBtn.disabled = true;
 
@@ -396,7 +428,41 @@ function endGame(shouldRevealHints = false) {
     saveState();
     updateHintsUI();
   }
+
+  if (isWin !== null) {
+    setTimeout(() => showEndGameModal(isWin), 600);
+  }
 }
+
+
+// Popup display logic
+function showEndGameModal(isWin) {
+  ownerName.textContent = secretCharacter.character;
+  
+  const imageName = secretCharacter.character.replace(/\s+/g, '_');
+  ownerImage.src = `images/${imageName}.png`;
+
+  popup.classList.remove('shake');
+
+  if (isWin) {
+      headline.textContent = "Item Returned!";
+      headline.style.color = "#1a1a1a"; 
+      
+      confetti({
+          particleCount: 150,
+          spread: 80,
+          origin: { y: 0.6 },
+          colors: ['#bfa873', '#f1c40f', '#ffffff'] 
+      });
+  } else {
+      headline.textContent = "Item forgotten...";
+      headline.style.color = "#1a1a1a"; 
+      popup.classList.add('shake');
+  }
+
+  modalOverlay.classList.add('show');
+}
+
 
 // Event Listeners
 guessInput.addEventListener("input", (e) => {
@@ -446,4 +512,8 @@ document.addEventListener("click", (e) => {
   }
 });
 
+closeBtn.addEventListener('click', () => {
+  modalOverlay.classList.remove('show');
+  modalOverlay.classList.add('dismissed');
+});
 initGame();

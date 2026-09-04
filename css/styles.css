@@ -321,6 +321,137 @@ body::before {
     display: none !important;
 }
 
+.error-text {
+    color: #ff5252;
+    font-size: 0.95rem;
+    height: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup {
+    background: #f6f6f6; 
+    color: #1a1a1a;
+    padding: 30px;
+    border: 6px double #1a1a1a; 
+    border-radius: 2px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    transform: scale(0.8);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modal-overlay.show .popup {
+    transform: scale(1); 
+}
+
+.headline {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtext {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.subtext strong {
+    font-size: 1.8rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.image-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px auto;
+    border: 3px solid #1a1a1a;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.endgamebtn {
+    background: #1a1a1a;
+    color: #f4ecd8;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.endgamebtn:hover {
+    background: #333;
+}
+
+.endgamebtn:active {
+    transform: scale(0.95);
+}
+
+@keyframes popupShake {
+    0%, 100% { transform: scale(1) translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: scale(1) translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: scale(1) translateX(10px); }
+}
+
+.popup.shake {
+    animation: popupShake 0.6s ease-in-out;
+}
+
+.modal-overlay.dismissed {
+    position: relative;
+    inset: auto;
+    background: transparent;
+    opacity: 1;
+    visibility: visible;
+    margin: 20px auto;
+    z-index: 1;
+}
+
+.modal-overlay.dismissed .popup {
+    transform: scale(1);
+}
+
+.modal-overlay.dismissed .endgamebtn {
+    display: none;
+}
+
 
 footer {
     text-align: center;
@@ -344,6 +475,8 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
 /* Mobile */
 @media (max-width: 600px) {
 

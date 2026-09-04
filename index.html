@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FE3H Lost Item Wordle</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Confetti link needs test on if I can use for free-->
+    <script src="https://unpkg.com/canvas-confetti@1.6.0/dist/confetti.browser.js"></script>
 </head>
 <body>
   <div class="game-container">
@@ -12,21 +14,35 @@
         <h2>Welcome to the FE3H Lost Item Wordle! Also known as Lostle!</h2>
         <p>Guess the lost item based on the hints provided. You will recieve the name of the item, and as you guess characters, any matching Crest, or Favorite Gifts will shown as Green! The more guesses you make, the more hints you will unlock automatically.</p>
      </div>
+    <!-- Final Popup -->
+  <div id="endgame-popup" class="modal-overlay">
+      <div id="popup" class="popup">
+          <h2 id="headline" class="headline">Temp HEADLINE!</h2>
+          <p class="subtext">The Owner is: <br><strong id="owner-name"></strong></p>
+          
+          <div class="image-container">
+              <img id="owner-image" src="" alt="Character" onerror="this.src='images/placeholder.png'">
+          </div>
+          
+          <button id="close-btn" class="endgamebtn">Continue</button>
+      </div>
+  </div>
 <div id="item-card" class="section-card">
   <h1 id="item-name">Item Name</h1>
   
   <div class="hints-grid">
+
     <div class="hint-box">
-      <div class="hint-title">Description</div>
-      <button class="hint-btn locked" id="hint-desc-btn" data-hint="desc" disabled>Unlocks after 1 guess</button>
+      <div class="hint-title">Item Appearance</div>
+      <button class="hint-btn locked" id="hint-app-btn" data-hint="app" disabled>Unlocks immediately</button>
     </div>
     <div class="hint-box">
-      <div class="hint-title">Appearance</div>
-      <button class="hint-btn locked" id="hint-app-btn" data-hint="app" disabled>Unlocks after 2 guesses</button>
+      <div class="hint-title"> Item Description</div>
+      <button class="hint-btn locked" id="hint-desc-btn" data-hint="desc" disabled>Unlocks after 2 guesses</button>
     </div>
     <div class="hint-box">
-      <div class="hint-title">Location</div>
-      <button class="hint-btn locked" id="hint-loc-btn" data-hint="loc" disabled>Unlocks after 3 guesses</button>
+      <div class="hint-title">Item Location</div>
+      <button class="hint-btn locked" id="hint-loc-btn" data-hint="loc" disabled>Unlocks after 2 guesses</button>
     </div>
     <div class="hint-box">
       <div class="hint-title">Faction</div>
@@ -42,7 +58,7 @@
         <ul id="suggestions-list" class="suggestions-list"></ul>
     </div>
     <div id="guess-count-display">Guess Count (0/5)</div>
-    <div id="feedback"></div>
+    <div id="input-error" class="error-text"></div>
     </div>
 
 
@@ -63,6 +79,7 @@
     </div>
 
   </div>
+
   <div id="footer" class="section-card">
   <footer>
       <p>Created by Khidany</p>
