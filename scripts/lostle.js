@@ -439,7 +439,7 @@ function endGame(shouldRevealHints = false, isWin = null) {
 function showEndGameModal(isWin) {
   ownerName.textContent = secretCharacter.character;
   
-  const imageName = secretCharacter.character.replace(/\s+/g, '_');
+  const imageName = secretCharacter.character.replace(/\s+/g, '_').toLowerCase();
   ownerImage.src = `images/${imageName}.png`;
 
   popup.classList.remove('shake');
